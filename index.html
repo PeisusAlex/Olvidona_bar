@@ -1,0 +1,531 @@
+<!DOCTYPE html><html class="dark" lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-low": "#1c1b1b", "tertiary": "#ffffff", "primary-fixed-dim": "#ccc6ba", "on-secondary": "#5e1700", "on-tertiary-container": "#bd2d24", "background": "#131313", "surface-container-highest": "#353535", "on-secondary-fixed-variant": "#802a0b", "primary-container": "#e8e2d6", "primary": "#ffffff", "outline-variant": "#4a463f", "surface-variant": "#353535", "on-background": "#e5e2e1", "on-secondary-fixed": "#3a0b00", "primary-fixed": "#e8e2d6", "tertiary-fixed": "#ffdad5", "surface-container-high": "#2a2a2a", "outline": "#959087", "on-primary-fixed": "#1e1b14", "secondary": "#ffb59e", "error-container": "#93000a", "surface-tint": "#ccc6ba", "inverse-primary": "#625e55", "on-error": "#690005", "surface-dim": "#131313", "on-primary-fixed-variant": "#4a463e", "tertiary-container": "#ffdad5", "on-primary": "#333028", "surface": "#131313", "surface-container-lowest": "#0e0e0e", "on-surface": "#e5e2e1", "on-primary-container": "#68645b", "on-tertiary": "#690003", "secondary-fixed-dim": "#ffb59e", "on-secondary-container": "#ffa083", "on-tertiary-fixed": "#410001", "surface-bright": "#393939", "on-surface-variant": "#ccc6bc", "error": "#ffb4ab", "tertiary-fixed-dim": "#ffb4aa", "on-error-container": "#ffdad6", "inverse-surface": "#e5e2e1", "on-tertiary-fixed-variant": "#910809", "surface-container": "#20201f", "secondary-container": "#832c0d", "secondary-fixed": "#ffdbd0", "inverse-on-surface": "#313030" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-sm": "0.75rem", "margin": "2rem", "gutter": "1.5rem", "space-lg": "2rem", "space-xs": "0.375rem", "space-xl": "3.5rem", "space-md": "1.25rem" }, "fontFamily": { "label-md": ["Plus Jakarta Sans"], "headline-xl": ["Newsreader"], "label-sm": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-sm": ["Newsreader"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Newsreader"], "headline-lg": ["Newsreader"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "500" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface text-on-surface font-body-md text-body-md min-h-screen flex flex-col selection:bg-secondary-container selection:text-secondary-fixed"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="bg-surface-container-lowest/90 px-space-sm py-1 flex items-center justify-center gap-2 overflow-hidden"><span class="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 animate-pulse"></span><p class="font-label-sm text-label-sm text-on-surface-variant truncate text-center">Hoy abierto hasta las 00:00 · Próximo partido: Real Madrid vs Barcelona</p></div><div class="h-20 px-space-sm flex items-center justify-between gap-space-xs"><button aria-label="Menú navegación" class="w-11 h-11 flex items-center justify-center rounded-xl bg-surface-container-low text-on-surface hover:bg-surface-container active:bg-surface-container-high transition-colors shrink-0" type="button"><span class="material-symbols-outlined text-[24px]">menu</span></button><div class="flex flex-col items-center justify-center"><a class="font-headline-lg text-headline-md tracking-tight font-semibold text-primary italic leading-none" href="#">Olvidona</a><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase mt-0.5">Chamberí · Madrid</span></div><div class="flex items-center gap-space-xs shrink-0"><a class="hidden sm:inline-flex h-11 px-space-sm items-center justify-center rounded-xl bg-secondary-container text-secondary-fixed font-label-md text-label-md font-semibold hover:bg-on-secondary-fixed-variant transition-colors shadow-sm" data-path="reserva-mesa" href="#">Reservar</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-20 pb-28 bg-surface"><div class="flex flex-col w-full text-on-surface">
+<!-- 1. HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest">
+<div class="w-full min-h-[460px] bg-cover bg-center flex flex-col justify-end p-space-sm relative" data-alt="Atmospheric warm Madrid tavern at twilight, crowded bar filled with people clinking cold beer glasses, wooden rustic interior with ambient golden pendant lamps, soft steam rising, authentic Spanish gastropub vibe with dark terracotta tones" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvxtKqUJA3QbF1vbcgp1Mno84Eo-8mlcbPRLzIz5V9eZLRkdCZSzz4KVX8HSnNgiMdXMytriNMGqikOBT8prON3Tamy8oUpggJuIWVW9IM-Q0CPWdQUm1nTvvKXoa5Pynu61aJdBkwcsxcMe6tkwPliqBBVZh5ArGrxu8NMrQMvIFlIcfY6cMWXJCFxPWLjyoKWDW3rBw9_OozXItQjj2zOIEEDIVCZVyGsm0SXoK6xJqYDozMwjw')">
+<div class="absolute inset-0 bg-gradient-to-t from-background via-surface-container-lowest/80 to-transparent"></div>
+<div class="relative z-10 flex flex-col gap-space-xs pt-space-lg">
+<!-- Google Rating Badge -->
+<div class="inline-flex items-center gap-1.5 self-start px-space-xs py-1 rounded-full bg-surface-container/90 backdrop-blur-md shadow-sm">
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-primary">4.9</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">· Chamberí, Madrid</span>
+</div>
+<!-- Headline & Tagline -->
+<h1 class="font-headline-lg text-headline-lg font-semibold text-primary leading-tight tracking-tight mt-1">
+          Tu punto de encuentro en Chamberí
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+          Cañas bien tiradas, tapas con acento oriental y copas hasta las 2 en un ambiente castizo y contemporáneo.
+        </p>
+<!-- CTA Buttons -->
+<div class="flex flex-col gap-2 mt-2 pt-1">
+<a class="w-full h-12 flex items-center justify-center gap-2 rounded-xl bg-secondary-container text-secondary-fixed font-label-md text-label-md font-semibold active:scale-[0.98] transition-transform shadow-md" href="#reservas">
+<span class="material-symbols-outlined text-[20px]">restaurant</span>
+            Reservar mesa
+          </a>
+<a class="w-full h-11 flex items-center justify-center rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md font-medium active:bg-surface-container-highest transition-colors" href="#carta">
+            Ver la carta completa
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. QUICK STATS BAR -->
+<section class="px-space-sm py-space-sm bg-surface">
+<div class="grid grid-cols-2 gap-2">
+<div class="p-space-xs rounded-xl bg-surface-container-low flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline">Hoy abierto</span>
+<span class="font-label-md text-label-md text-primary font-semibold truncate">13:00 - 02:00</span>
+</div>
+</div>
+<div class="p-space-xs rounded-xl bg-surface-container-low flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">pin_drop</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline">Ubicación</span>
+<span class="font-label-md text-label-md text-primary font-semibold truncate">Meléndez Valdés 62</span>
+</div>
+</div>
+<div class="p-space-xs rounded-xl bg-surface-container-low flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">deck</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline">Ambiente</span>
+<span class="font-label-md text-label-md text-primary font-semibold truncate">Terraza todo el año</span>
+</div>
+</div>
+<div class="p-space-xs rounded-xl bg-surface-container-low flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">takeout_dining</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline">Servicio</span>
+<span class="font-label-md text-label-md text-primary font-semibold truncate">Takeaway disponible</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. UN SITIO PARA CADA MOMENTO -->
+<section class="py-space-md px-space-sm bg-surface">
+<div class="flex flex-col mb-space-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">El Ritmo de Olvidona</span>
+<h2 class="font-headline-md text-headline-md text-primary font-semibold italic">Un sitio para cada momento</h2>
+</div>
+<div class="flex flex-col gap-space-xs">
+<!-- Momento 1 -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2 relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm">13:00 - 17:00</span>
+<span class="material-symbols-outlined text-outline">wine_bar</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Mediodía &amp; Vermut</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">El aperitivo de siempre con cañas perfectamente tiradas, vermut de grifo artesanal y gildas de autor para abrir boca.</p>
+</div>
+<!-- Momento 2 -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2 relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm">20:30 - 23:30</span>
+<span class="material-symbols-outlined text-outline">tapas</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Cenas &amp; Fusión</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Raciones castizas de taberna reinterpretadas con guiños a la cocina asiática y diseñadas para compartir al centro.</p>
+</div>
+<!-- Momento 3 -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2 relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm">23:30 - 02:00</span>
+<span class="material-symbols-outlined text-outline">local_bar</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Copas &amp; Noche</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">La mejor sobremesa canalla de Chamberí: destilados premium, iluminación tenue y una cuidada selección musical hasta el cierre.</p>
+</div>
+</div>
+</section>
+<!-- 4. NUESTROS IMPRESCINDIBLES -->
+<section class="py-space-md px-space-sm bg-surface">
+<div class="flex items-end justify-between mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Recomendaciones</span>
+<h2 class="font-headline-md text-headline-md text-primary font-semibold italic">Nuestros imprescindibles</h2>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Top 6</span>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Item 1 -->
+<div class="p-space-xs rounded-xl bg-surface-container-low flex gap-3 items-center">
+<img class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Plate of golden crispy Spanish ham croquettes with creamy bechamel filling on a dark artisanal ceramic dish with parsley garnish, warm dim restaurant lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAw5fJD8xd2BJ6NGWkBsDY1i8OQ-CbydBc8J5cQ2lUlLDNokoAvuyGz6QRJZ3NFR435CilMXiz0M2dnMVoWgclzuAQylzGeKSwfYYafXn_TrNVmDyitftLbboVaNKExDqq8Wt3UAeAqcaNSu6Fx1NYiPpFEqy7cFaXvr-3zr1ovtIB_I2AC8eCK24spvoQNXNQYPlLukiQhch5A5Z1rhNIyLWaN81D4YsIc_8TA3eO-2mvDcvTc244">
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-1">
+<h4 class="font-headline-sm text-label-md font-semibold text-primary truncate">Croquetas de Jamón Ibérico</h4>
+<span class="font-label-md text-label-md font-bold text-secondary shrink-0">9.50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Cremosas y fluidas, con jamón de bellota 100%.</p>
+<div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-md bg-surface-container text-primary font-label-sm text-[11px]">Clásico</span>
+<span class="text-outline font-label-sm text-[11px]">Gluten · Lácteos</span>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-space-xs rounded-xl bg-surface-container-low flex gap-3 items-center">
+<img class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Pan-seared crispy Japanese gyoza dumplings filled with Spanish suckling pig cochifrito, drizzled with spicy glaze and chives on a matte black plate" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOGxawfu8ll4KSVSsRcyuIyXRSsuc9i0XlSq_0tW0ngxdoW0Ctn3NWXxGiG6Lcp-eBRTGcTGWwlFchpjh0JPqq4vgvSZmJvvrmCfYp6XUWOxwq53n-AK4hIQnxEt0jkPtO8YAwUgiYTeGuTLwvEkaegsEAxpcK_Nje4bpemu0AN1ju8y4h4KXkMnmryFD0bl4d8nIZkfZ06Gu70Hb0qsSUECn74bk5LEPcOV1AlFNG6HHg9oShLF8">
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-1">
+<h4 class="font-headline-sm text-label-md font-semibold text-primary truncate">Gyoza de Cochifrito</h4>
+<span class="font-label-md text-label-md font-bold text-secondary shrink-0">11.00 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Empanadilla crujiente con cerdo segoviano y salsa ponzu.</p>
+<div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-md bg-secondary-container text-secondary-fixed font-label-sm text-[11px]">Fusión Estrella</span>
+<span class="text-outline font-label-sm text-[11px]">Soja · Sésamo</span>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="p-space-xs rounded-xl bg-surface-container-low flex gap-3 items-center">
+<img class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Fresh bluefin tuna tartare dressed with avocado emulsion, tobiko roe and wonton crisps on dark stoneware in an elegant Madrid bar setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOHhYDwPzTwUDtOxKABTcmY57K47e7n2rx_XEtKGbAguADSysCCwx6IIGlo9CAbCoJhNVE818vlOSbIvnmFnHkflu8MOBBqoOgXowELaLLjskMP8qaR7Tfv_NVnobvTcvGIOdoGqw6naW6vT_iOSVea0u46-bgkDgId26VU1VCfuFicuUCu0kQS24I9nId9_KgkBIwJ0ZEeuYCkgAubCw77bVWBoulo4NzOy4EnRX9FZ_pmiRsrUY">
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-1">
+<h4 class="font-headline-sm text-label-md font-semibold text-primary truncate">Tartar de Atún Rojo</h4>
+<span class="font-label-md text-label-md font-bold text-secondary shrink-0">14.50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Atún de almadraba, emulsión de aguacate y yema trufada.</p>
+<div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-md bg-surface-container text-secondary font-label-sm text-[11px]">Recomendado</span>
+<span class="text-outline font-label-sm text-[11px]">Pescado · Huevos</span>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="p-space-xs rounded-xl bg-surface-container-low flex gap-3 items-center">
+<img class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Traditional Madrid style tripe stew callos a la madrilena bubbling hot in a rustic clay bowl with chorizo and morcilla, served with crusty bread" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfm9olOykliXywfzVNuCzAgnGWfR1BmXuQ9--UOLryb3PMfOj8CZcsX4LPfqv_o5cFSBxe0vbHgGIUq4dboFNZomP2m9hSchkXvffT2mTZ6V7jawJeqUW_-WtHxh44zYzzrDdEreVYfCOuNZq5m6WJmNlIC0W6G6sVDD_lT3yzjpW7GznUElFixS7WB3sd9ORnlF_R4a5XUhggBlR7N04lVMDxz-Hcr2rNoAUR-8hf-CONBqy8L50">
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-1">
+<h4 class="font-headline-sm text-label-md font-semibold text-primary truncate">Callos a la Madrileña</h4>
+<span class="font-label-md text-label-md font-bold text-secondary shrink-0">12.00 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Receta centenaria con pata, morro y chorizo ahumado.</p>
+<div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-md bg-surface-container text-primary font-label-sm text-[11px]">Tradición</span>
+<span class="text-outline font-label-sm text-[11px]">Sin gluten disponible</span>
+</div>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="p-space-xs rounded-xl bg-surface-container-low flex gap-3 items-center">
+<img class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Steamed fluffy Asian bao bun stuffed with slow roasted caramelized pork belly, pickled cucumber and hoisin sauce on dark slate table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXIzOH74DtxRNQzKR_WKDGVfDA_yaNdAerBQ6GxEzkAXlC4nWC0T2vlv2wrV6hErj4L0IJ2axPcAz9xPlCyP2maKpPg-w3Xx8pgTcy_Vbl1_mm0AT4wlc3BsPePI4R7Nyx-1dsNU6uxnI1d4zHO4Bbmo2wZiCL0CwGX0YMcKt0nflf9RHIGElPQY9e0gJUG4YAG05DmutgsfrKRN9LuzC3bywFa_I2i3ZuiTMvEaVspFhITzkaPfc">
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-1">
+<h4 class="font-headline-sm text-label-md font-semibold text-primary truncate">Bao de Panceta Asada</h4>
+<span class="font-label-md text-label-md font-bold text-secondary shrink-0">10.00 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Panceta melosa a baja temperatura, encurtidos y hoisin.</p>
+<div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-md bg-secondary-container text-secondary-fixed font-label-sm text-[11px]">Popular</span>
+<span class="text-outline font-label-sm text-[11px]">Gluten · Cacahuetes</span>
+</div>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="p-space-xs rounded-xl bg-surface-container-low flex gap-3 items-center">
+<img class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Warm Basque style burnt cheesecake with ultra molten creamy center dripping onto plate, golden caramel crust, macro food photography in warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcD6ZuQpjAa55eLdbjunj__mZGUCgiQEGwxApkse4KIjia2kgNr4zOQ1NxWlkXYRvlA8KbHNXsXoh6c51Rb7z70-P9Ludp6v31930oHpkaLlmbn_qcOICfQAVN6tswCuWB27h7WALsT9mHdWcmAfJq2Tura5Tx3XJUR8tMZJ1SzG0Tpaqg1S6Su1JWlz3dP-BDOD3U6uehyJc6PJH6ZDXs5d8Asx7RXfZp7fjcfR3uWm4Pdpmlftw">
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-1">
+<h4 class="font-headline-sm text-label-md font-semibold text-primary truncate">Tarta de Queso Cremosa</h4>
+<span class="font-label-md text-label-md font-bold text-secondary shrink-0">6.50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Interior fluido con queso Idiazábal y toque ahumado.</p>
+<div class="flex items-center gap-1.5 mt-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded-md bg-surface-container text-secondary font-label-sm text-[11px]">Postre Estrella</span>
+<span class="text-outline font-label-sm text-[11px]">Lácteos · Huevos</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. NUESTRA CARTA CON PESTAÑAS -->
+<section class="py-space-md px-space-sm bg-surface" id="carta">
+<div class="flex flex-col mb-space-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Gastronomía de Barra</span>
+<h2 class="font-headline-md text-headline-md text-primary font-semibold italic">Nuestra Carta</h2>
+</div>
+<!-- Horizontal Tabs -->
+<div class="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
+<button class="px-4 py-2 rounded-xl bg-secondary-container text-secondary-fixed font-label-sm text-label-sm font-semibold shrink-0">Para picar</button>
+<button class="px-4 py-2 rounded-xl bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium shrink-0">Fusión</button>
+<button class="px-4 py-2 rounded-xl bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium shrink-0">Raciones</button>
+<button class="px-4 py-2 rounded-xl bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium shrink-0">Cervezas</button>
+<button class="px-4 py-2 rounded-xl bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium shrink-0">Vinos</button>
+<button class="px-4 py-2 rounded-xl bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium shrink-0">Copas</button>
+</div>
+<!-- Tab Content -->
+<div class="mt-3 flex flex-col gap-2.5 bg-surface-container-low p-space-sm rounded-xl">
+<div class="flex items-baseline justify-between py-1">
+<div class="flex flex-col pr-2">
+<span class="font-headline-sm text-body-lg font-medium text-primary">Gildas de la casa</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Anchoa del Cantábrico '00', piparra de Ibarra y aceituna gordal.</span>
+</div>
+<span class="font-label-md text-label-md font-semibold text-secondary shrink-0">2.50 €</span>
+</div>
+<div class="h-px bg-surface-container"></div>
+<div class="flex items-baseline justify-between py-1">
+<div class="flex flex-col pr-2">
+<span class="font-headline-sm text-body-lg font-medium text-primary">Ensaladilla rusa castiza</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Patata machacada, bonito del norte confitado y regañás de Jerez.</span>
+</div>
+<span class="font-label-md text-label-md font-semibold text-secondary shrink-0">7.50 €</span>
+</div>
+<div class="h-px bg-surface-container"></div>
+<div class="flex items-baseline justify-between py-1">
+<div class="flex flex-col pr-2">
+<span class="font-headline-sm text-body-lg font-medium text-primary">Patatas Bravas Olvidona</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Corte crujiente, salsa brava ahumada tradicional y alioli suave de ajo asado.</span>
+</div>
+<span class="font-label-md text-label-md font-semibold text-secondary shrink-0">6.50 €</span>
+</div>
+<div class="h-px bg-surface-container"></div>
+<div class="flex items-baseline justify-between py-1">
+<div class="flex flex-col pr-2">
+<span class="font-headline-sm text-body-lg font-medium text-primary">Queso Manchego Curado</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">D.O. La Mancha 12 meses de maduración en aceite de oliva virgen extra.</span>
+</div>
+<span class="font-label-md text-label-md font-semibold text-secondary shrink-0">9.00 €</span>
+</div>
+</div>
+<!-- Download PDF Button -->
+<a class="mt-3 w-full h-11 flex items-center justify-center gap-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md font-medium hover:bg-surface-container-high transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">download</span>
+      Descargar carta en PDF
+    </a>
+</section>
+<!-- 6. PARTIDOS EN OLVIDONA -->
+<section class="py-space-md px-space-sm bg-surface">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-ping"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Fútbol en Directo</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Chamberí</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-headline-md text-headline-md text-primary font-semibold italic">Partidos en Olvidona</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Vive la pasión del fútbol con el mejor ambiente, raciones calientes y cervezas frías.</p>
+</div>
+<!-- Feature Badges -->
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">tv</span> Pantallas 4K HD
+        </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">volume_up</span> Sonido Ambiente
+        </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">sports_bar</span> Cubos de Cerveza
+        </span>
+</div>
+<!-- Match 1 -->
+<div class="p-space-xs rounded-xl bg-surface-container flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Sábado 21:00 · La Liga</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-primary font-label-sm text-[10px] uppercase font-bold">Pantalla Gigante</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-body-lg font-bold text-primary">Real Madrid vs Barcelona</span>
+<span class="material-symbols-outlined text-secondary">sports_soccer</span>
+</div>
+<a class="w-full h-10 mt-1 flex items-center justify-center rounded-lg bg-secondary-container text-secondary-fixed font-label-sm text-label-sm font-semibold active:scale-[0.98] transition-transform" href="#reservas">
+          Reservar para el partido
+        </a>
+</div>
+<!-- Match 2 -->
+<div class="p-space-xs rounded-xl bg-surface-container flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Miércoles 21:00 · Champions League</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-primary font-label-sm text-[10px] uppercase font-bold">Sonido Bar</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-body-lg font-bold text-primary">Atlético Madrid vs Man. City</span>
+<span class="material-symbols-outlined text-secondary">sports_soccer</span>
+</div>
+<a class="w-full h-10 mt-1 flex items-center justify-center rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold active:scale-[0.98] transition-transform" href="#reservas">
+          Reservar para el partido
+        </a>
+</div>
+</div>
+</section>
+<!-- 7. OPINIONES DE GOOGLE -->
+<section class="py-space-md px-space-sm bg-surface">
+<div class="flex flex-col items-center text-center mb-space-sm">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary font-semibold">4.9 / 5.0 en Google</h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Más de 450 vecinos y visitantes nos avalan</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<!-- Review 1 -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center font-bold text-secondary-fixed text-label-sm">MC</div>
+<div>
+<h4 class="font-label-md text-label-md font-semibold text-primary">Marta C.</h4>
+<span class="font-label-sm text-label-sm text-outline">Vecina de Chamberí</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">hace 3 días</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          "Las mejores cañas de la zona y los baos de panceta son adictivos. Buen trato de los camareros incluso con el bar hasta arriba un viernes."
+        </p>
+</div>
+<!-- Review 2 -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center font-bold text-primary text-label-sm">JR</div>
+<div>
+<h4 class="font-label-md text-label-md font-semibold text-primary">Javier R.</h4>
+<span class="font-label-sm text-label-sm text-outline">Local Guide</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">hace 1 semana</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          "Fuimos a ver el Clásico y la atmósfera fue inmejorable. El sonido brutal y las croquetas de las mejores que he probado en Madrid."
+        </p>
+</div>
+<!-- Review 3 -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center font-bold text-primary text-label-sm">LG</div>
+<div>
+<h4 class="font-label-md text-label-md font-semibold text-primary">Lucía G.</h4>
+<span class="font-label-sm text-label-sm text-outline">Reseña verificada</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary">hace 2 semanas</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          "La sobremesa con copas después de cenar es genial, no tienes que cambiar de sitio. Muy buena música y cócteles bien preparados."
+        </p>
+</div>
+</div>
+</section>
+<!-- 8. CELEBRA CON NOSOTROS (FORMULARIO RESERVAS / EVENTOS) -->
+<section class="py-space-md px-space-sm bg-surface" id="reservas">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Grupos &amp; Eventos</span>
+<h2 class="font-headline-md text-headline-md text-primary font-semibold italic">Celebra con nosotros</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cumpleaños, afterworks o cenas de amigos. Reserva mesa o zona en cuestión de minutos.</p>
+</div>
+<form class="flex flex-col gap-3">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-outline">Nombre completo</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container text-primary font-body-md placeholder:text-outline-variant focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="Ej. Carlos Mendoza" type="text">
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-outline">Teléfono</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container text-primary font-body-md placeholder:text-outline-variant focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="+34 600 000 000" type="tel">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-outline">Personas</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container text-primary font-body-md placeholder:text-outline-variant focus:outline-none focus:bg-surface-container-high transition-colors" max="40" min="1" placeholder="4" type="number">
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-outline">Fecha prevista y hora</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container text-primary font-body-md placeholder:text-outline-variant focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="Viernes 21:30" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-outline">Detalles (opcional)</label>
+<textarea class="w-full p-3 rounded-lg bg-surface-container text-primary font-body-md placeholder:text-outline-variant focus:outline-none focus:bg-surface-container-high transition-colors resize-none" placeholder="Cumpleaños, alergias, preferencia de terraza o interior..." rows="2"></textarea>
+</div>
+<button class="w-full h-12 mt-1 flex items-center justify-center rounded-xl bg-secondary-container text-secondary-fixed font-label-md text-label-md font-semibold active:scale-[0.98] transition-transform shadow-md" type="button">
+          Enviar solicitud de reserva
+        </button>
+<p class="font-label-sm text-label-sm text-outline text-center">Confirmación inmediata vía WhatsApp o llamada.</p>
+</form>
+</div>
+</section>
+<!-- 9. GALERÍA INSTAGRAM -->
+<section class="py-space-md px-space-sm bg-surface">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Comunidad</span>
+<h2 class="font-headline-md text-headline-md text-primary font-semibold italic">@olvidonabar</h2>
+</div>
+<a class="px-3 py-1.5 rounded-lg bg-surface-container-low text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-1" href="https://instagram.com" rel="noreferrer" target="_blank">
+        Seguir
+      </a>
+</div>
+<!-- 3x2 Grid -->
+<div class="grid grid-cols-3 gap-2">
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Close up of freshly tapped draught beer with perfect creamy foam collar in Madrid bar glass" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCM71A84-ycuTPZYHUr9u7LvXomXm1sCH-uwYeRbQyZZI62MYXHbhJrDnSF0DqJ9osv-hDavKcF1hmR6BcSywmjeNrCZEqSp5Y1ErGQTd0S7x8fJI7CmFpd2BjYMXdbdTeLn5nL9c7Tau1DZ7PHitWy-EpsXPGcErUysa02QtQgZc69vG5X8Kzq7gpF7rHiuM3uT60S_kbaRroc-_f5kxlcj9_uzKbKmFOvDOtgeAa-KUIGzaljcOY">
+</div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Rustic wooden bar counter filled with Spanish tapas, olives, potato chips and vermouth glasses" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAZUJLje5M9Dz0oiCPP35uanTzZfFZ_fO8xOs7iSUj2LsSndpjoCxRM6O5HrkC_45-9W7Ad8jCr5YYbLK3XlzrOYyRbMZDlfOtf9ywNGiDpYzW3ZlfqT-yeUYBsZVHPdWgoKB7gJbOsM1oviUNfnEq92NLIm7dFW2GWnVIK7zy9GY-rzHkXw_ALIlMzAeqlhotNomlvftW3amHtEOwBQPBUI_1se5UxSxNhJPw49PPwIwQXdCtIc4">
+</div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Chef plating delicate Asian fusion bao bun with pickled garnishes in kitchen of Spanish gastrobar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDLnALlwt2rMXpLLom22Cm68QXyym1e5K_aypXN8InMNAnGCSFruwM_q0S84LdAKRYRT3zx2-zhCos3pXD2G_QGowJThFnpQvz0VhACi1oixRjVmuN6388hApfZS_s98JVpHm69-8UlFltnAaa9gRzBXhtQ9mHgfUwpz0_qY4WwxLgly7ZsvcR_zc-eu4uIyvH3p6EBtiI57sqkVwk-RF6cjieFC_CzwYpQtfZanjlDtSnVg7QW4o">
+</div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Friends cheering with crystal gin tonic glasses under warm dim cocktail bar lighting in Madrid night" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMb7Z288HcFxFMWmyuRQC1IxI4DQ165C5ReE1bYNQYivwqA7WF31eSE6VWgGo5oSEfEsayIhwFi2I7pTZ_x8-wflJqXnejAd512QtFXPhMxAt3tf7lQRN5p5Iklvta3yeXJdWS8X3wS5-rk0P_HmCgxzzeTDLpg2P5TsvLA3svvSpMy_ze5rMvWNrpP019Q73DLDDEkFFaDlsLjC2e8hjiaTD1vDdUtO7zMzj1c1ksPLwMGtSfk0E">
+</div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Overhead view of piping hot castiza bravas potatoes with red and white homemade sauces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBk27ahRRVg4ZDv84gbOwNgHOkVjjGjMhiNElzsVB_E6w0d9imJbNLW4jB4ZXLR5psISsVlnECa_oxyw-YYENbXDAnbt8YuLsfpsB-KTuxVzTzjGOuMljPBO5QVKTA0bgKsY9rMTUuTbGRN-LtWToIwff8vKdhSs6doCzZGqUUPx58LXEJhJRb5QalTRhX-axAUL20951Xp0AoALch6VsmcBrvgDd0PYFMChGkZXdjtE4-fZyZogKc">
+</div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Exterior outdoor terrace of modern tavern in Chamberi Madrid with ambient fairy lights and happy customers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmgyrjnh7ufByRFV7zMibSAv-GtbXkoswPnoI6s8aBB674F05Tf2vvfmhyEo8Ll2HC5Mn4CRrBX_2vkbDZ5Tz35J_AsdrL5wlHJtqP7QPgxjljtpYOSi49Ub3DaqPScwerPdYCBpDa_yHA6hMP5q-gu_3v4_IDgAQIdS5x8ZlUGBiJHeHKU8mo3Ff11OFDa96raDzLRmtZX18xUQHQhZjjul7AyVXm-LrhIpm0hLEs6Y_V1OMlheE">
+</div>
+</div>
+</section>
+<!-- 10. UBICACIÓN Y HORARIOS -->
+<section class="py-space-md px-space-sm bg-surface">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Encuéntranos</span>
+<h2 class="font-headline-md text-headline-md text-primary font-semibold italic">Ubicación y Horarios</h2>
+</div>
+<!-- Static Map Box -->
+<div class="w-full h-44 rounded-xl bg-cover bg-center overflow-hidden flex items-end p-2 relative shadow-inner" data-location="Calle Meléndez Valdés 62, Chamberí, Madrid" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDHe8D-7XjvVi-3Q7QLZuh7IoGvSyDhTjUslgp9_WnDa-pwNqZcC3TrFBBGUec2ObtL3TsUVTLhYzdaadx15Y8kW4QrcXcJ9uvJuqbRVMlcDHsRF69jV2EJQ2N46_fugt3l2dns4gYxIdChDQjr3haNezULjJQcyPM2SPZfjvj0_JYL43WNrXT_xUKupI1qd3veTrXXV3xQgKHMOweLcguewzl9FwjqRw_2d_vAPHhPT7XYkcSIi8Y')">
+<div class="w-full p-2 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">pin_drop</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md font-semibold text-primary truncate">C/ Meléndez Valdés 62</span>
+<span class="font-label-sm text-label-sm text-outline">Chamberí · 28015 Madrid</span>
+</div>
+</div>
+<a class="p-2 rounded-md bg-secondary-container text-secondary-fixed shrink-0" href="https://maps.google.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+</a>
+</div>
+</div>
+<!-- Transit details -->
+<div class="flex items-center gap-2 p-2 rounded-lg bg-surface-container text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[18px]">subway</span>
+<span><strong>Metro:</strong> Argüelles (L3, 4, 6) a 2 min · Moncloa (L3, 6) a 5 min</span>
+</div>
+<!-- Detailed Schedule -->
+<div class="flex flex-col gap-1.5 py-1">
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Martes a Jueves</span>
+<span class="text-primary font-medium">13:00 - 00:30</span>
+</div>
+<div class="h-px bg-surface-container"></div>
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Viernes y Sábados</span>
+<span class="text-secondary font-medium">13:00 - 02:00</span>
+</div>
+<div class="h-px bg-surface-container"></div>
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Domingos</span>
+<span class="text-primary font-medium">13:00 - 00:00</span>
+</div>
+<div class="h-px bg-surface-container"></div>
+<div class="flex justify-between font-body-sm text-body-sm">
+<span class="text-outline">Lunes</span>
+<span class="text-outline italic">Cerrado por descanso</span>
+</div>
+</div>
+<!-- Direct Contact Buttons -->
+<div class="grid grid-cols-3 gap-2 mt-1">
+<a class="h-11 flex flex-col items-center justify-center rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" href="https://maps.google.com" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">near_me</span>
+<span class="font-label-sm text-[11px] font-semibold">Cómo llegar</span>
+</a>
+<a class="h-11 flex flex-col items-center justify-center rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" href="tel:+34910000000">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span class="font-label-sm text-[11px] font-semibold">Llamar</span>
+</a>
+<a class="h-11 flex flex-col items-center justify-center rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" href="https://wa.me/34600000000">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="font-label-sm text-[11px] font-semibold">WhatsApp</span>
+</a>
+</div>
+</div>
+</section>
+</div><footer class="mt-space-xl px-space-sm py-space-lg bg-surface-container-low rounded-t-xl mx-2 text-center flex flex-col items-center gap-space-sm"><div class="font-headline-sm text-headline-sm text-primary italic">Olvidona Bar</div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">Taverna castiza y contemporánea en el corazón de Chamberí. Vinos selectos, raciones y sobremesas inolvidables.</p><div class="flex items-center gap-space-md text-secondary py-space-xs"><a aria-label="Instagram" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="Ubicación en mapa" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">place</span></a><a aria-label="Contacto correo" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">mail</span></a></div><div class="w-full max-w-xs h-px bg-surface-container-highest my-space-xs"></div><div class="font-body-sm text-body-sm text-on-surface-variant flex flex-col gap-1"><p>Calle de Ponzano, Chamberí, Madrid</p><p>Abierto Ma-Do: 12:30 a 00:30</p></div><div class="flex flex-wrap justify-center gap-space-sm pt-space-xs font-label-sm text-label-sm text-outline"><a class="hover:text-on-surface transition-colors" href="#">Aviso Legal</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a><span>·</span><a class="hover:text-on-surface transition-colors" href="#">Cookies</a></div><p class="font-label-sm text-label-sm text-outline-variant pt-space-xs">© 2025 Olvidona Bar Chamberí. Todos los derechos reservados.</p></footer></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_16px_rgba(0,0,0,0.35)]" data-active-classes="text-secondary"><div class="grid grid-cols-4 items-center h-20 px-2 max-w-md mx-auto"><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] py-1 rounded-xl bg-secondary-container text-secondary-fixed transition-transform active:scale-95 shadow-[0_2px_8px_rgba(131,44,13,0.4)]" data-path="reserva-mesa" href="#"><span class="material-symbols-outlined text-[22px]">table_restaurant</span><span class="font-label-sm text-[11px] leading-tight font-semibold mt-0.5">Reservar</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] py-1 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" data-path="llamar" href="tel:+34910000000"><span class="material-symbols-outlined text-[22px]">call</span><span class="font-label-sm text-[11px] leading-tight font-medium mt-0.5">Llamar</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] py-1 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" data-path="whatsapp" href="https://wa.me/34600000000"><span class="material-symbols-outlined text-[22px]">chat</span><span class="font-label-sm text-[11px] leading-tight font-medium mt-0.5">WhatsApp</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] py-1 text-on-surface-variant hover:text-on-surface transition-colors active:scale-95" data-path="como-llegar" href="#"><span class="material-symbols-outlined text-[22px]">near_me</span><span class="font-label-sm text-[11px] leading-tight font-medium mt-0.5">Cómo llegar</span></a></div></nav></body></html>
